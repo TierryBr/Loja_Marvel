@@ -50,4 +50,4 @@ Depois que o *merge* da sua *pull request* for feito, você pode deletar a sua *
 
 
 ---
-Feito com ♥ by Tierry Barros :wave:
+Feito com ♥ by Tierry Barros :wave: [See my LinkedIn](https://www.linkedin.com/in/tierrybrs/)
