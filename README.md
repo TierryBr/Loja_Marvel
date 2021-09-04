@@ -1,78 +1,52 @@
-<<<<<<< HEAD
-# Loja_Marvel
-=======
-<<<<<<< HEAD
-# Loja_Marvel
-=======
-# Getting Started with Create React App
+<h1 align="center">Loja Marvel</h1>
+<p align="center">Projeto <strong>Loja Marvel</strong> desenvolvido a fim de testar API da Marvel para consumo de informações dos heróis 🇲</p>
+<p align="center">
+  <a aria-label="Tierry" href="https://github.com/TierryBr">
+    <img src="https://img.shields.io/badge/tierrybr-21.0-informational?logo=medium"></img>
+  </a>
+  <a aria-label="ReactJS" href="">
+    <img src="https://img.shields.io/badge/reactjs-17.0.2-informational"></img>
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+## 🚀 Instalação e execução
 
-### `yarn start`
+_ps: Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository) vai te ajudar 💖_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Abra o terminal do seu computador. Se estiver no Windows, pode ser o Prompt de Comando ou PowerShell. Caso use o WSL no Windows, use o Windows Terminal, usando o Ubuntu ou qualquer distribuição suportada pelo WSL. 
+2. Altere o diretório de trabalho atual para o local em que deseja ter o código do módulo salvo no seu computador.
+3. Faça um clone desse repositório rodando: <br> `git clone https://github.com/TierryBr/Loja_Marvel.git`;
+4. Entre na pasta rodando pelo terminal: `cd loja_marvel`;
+5. Rode `npm i` para instalar as dependências do projeto;
+6. Rode `npm start` para iniciar o servidor de desenvolvimento.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Aplicação
 
-### `yarn test`
+![Demo](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/demo.gif)
+![Homepage](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/home.png)
+![Details](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/details.png)
+![Cart](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/cart.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤔 Como contribuir
 
-### `yarn build`
+Se quiser contribuir para esse repositório aqui, seja corrigindo algum problema, adicionando comentários ou melhorando a documentação, você pode seguir esse tutorial abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Faça [um fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo) desse repositório;
+- Entre no seu perfil no GitHub e faça um clone do repositório que você fez um *fork*;
+- Crie uma *branch* com a sua alteração: `git checkout -b minha-alteracao`;
+- Faça as alterações necessárias no código ou na documentação;
+- Faça *commit* das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça *push* para a sua *branch*: `git push origin minha-alteracao`;
+- Agora é só abrir a sua *pull request* no repositório que você fez o *fork*;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Depois que o *merge* da sua *pull request* for feito, você pode deletar a sua *branch*.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 7d3dd51 (Initialize project using Create React App)
->>>>>>> 778dd42 (criação do projeto)
+---
+Feito com ♥ by Tierry Barros :wave:
