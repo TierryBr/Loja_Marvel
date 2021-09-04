@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
  
 import { FiShoppingBag } from 'react-icons/fi';
 import "../styles/sidebar.scss";
  
 import logo from '../assets/m.png';
  
-export default function Header() {;
+export default function Header() {
+const cartSize = useSelector(state => state.cart.length);
+
  return (
    <header className="header">
      <Link to="/" className="logo">
@@ -18,7 +21,7 @@ export default function Header() {;
        <div>
          <strong>Carrinho</strong>
          <span>
-           <strong>4</strong> quadrinhos
+           <strong>{cartSize}</strong> quadrinhos
          </span>
        </div>
        <FiShoppingBag size={36} color="#1C1C1C" />

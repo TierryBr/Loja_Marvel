@@ -3,11 +3,24 @@ import api from "../../services/api";
 import { FiShoppingBag } from 'react-icons/fi';
 import { FaShoppingBag, FaArrowDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+import { useDispatch, useSelector } from 'react-redux';
+import * as CartActions from '../../store/modules/cart/actions';
  
 import './styles.scss';
 
 function Home() {
   const [comics, setComics] = useState([]);
+
+  const amount = useSelector(state =>
+    state.cart.reduce((sumAmount, comic) => {
+      sumAmount[comic.id] = comic.amount;
+  
+      return sumAmount;
+    }, {})
+  );
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     api.get("/comics", {
@@ -40,6 +53,10 @@ function Home() {
   }, [comics]);
 
 
+  function handleAddProduct(comic) {
+    dispatch(CartActions.addToCart(comic));
+  }
+
   return (
     <main className="container">
      <ul className="book-catalog">
@@ -60,10 +77,10 @@ function Home() {
             </span>
           ))}
 
-          <button type="button" onClick={() => {}}>
+          <button type="button" onClick={() => handleAddProduct(comic)}>
             <div>
               <FiShoppingBag size={16} color="#CD4F39" />{' '}
-              0
+              {amount[comic.id] || 0}
             </div>
 
             <span>Adicionar</span>
