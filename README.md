@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aplicação">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -26,7 +27,7 @@ _ps: Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help
 5. Rode `npm i` para instalar as dependências do projeto;
 6. Rode `npm start` para iniciar o servidor de desenvolvimento.
 
-## Aplicação
+## 💻 Aplicação
 
 ![Demo](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/demo.gif)
 ![Homepage](https://github.com/TierryBr/Loja_Marvel/blob/main/public/readme/home.png)
